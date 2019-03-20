@@ -11,6 +11,7 @@
 
 body{
   background-image: url(../img/homecake.jpg);
+
 }
 
 p{
@@ -43,8 +44,9 @@ p{
 
 img {
 float:inherit;
-width: 400px;
-height:250px;
+width: 250px;
+height:100px;
+
 
 
 }
@@ -71,14 +73,7 @@ height:250px;
   font-style: italic;
   color: purple;
 }
-.border{
-    border: 2px solid yellow;
-    padding: 4px;
-    margin: 12px;
-    background-color: pink;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+
 
 
 
@@ -87,14 +82,26 @@ height:250px;
   float: left;
   padding: 4px;
   margin: 12px;
+
 }
 
 .column{
   width: 380px;
   float: left;
   padding: 10px;
+
 }
 
 .big{
-  border: 3px;
-}
+    width: 380px;
+    float: left;
+    padding: 4px;
+    margin: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+  }
+
+  .html{
+    position:fixed;
+  }
