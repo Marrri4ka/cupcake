@@ -1,0 +1,11 @@
+
+
+body{
+  background-image: url(../img/homecake.jpg);
+}
+
+ul.flashy {
+  color: red;
+  font-style: italic;
+
+}
