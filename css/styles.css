@@ -4,6 +4,11 @@
   text-align: center;
   font-size: 40px;
 }
+
+.header h3 {
+  font-family: fantasy;
+}
+
 body{
   background-image: url(../img/homecake.jpg);
 }
@@ -13,12 +18,21 @@ p{
   font-size: 25px;
   font-weight: bold;
 }
-.flashy {
+.sidebar{
+  width:200px;
+  height: 2000px;
+  float:right;
+  background-color:white;
+}
+  .flashy {
   color: red;
   font-style: italic;
-  display: inline-block;
-
-
+  width: 30%;
+  float: left;
+  border: 2px solid yellow;
+  text-align: center;
+  font-size: 50px;
+  background-color: pink;
 
 }
 .best{
@@ -28,21 +42,59 @@ p{
 }
 
 img {
-  width: 300px;
+float:inherit;
+width: 400px;
+height:250px;
+
+
 }
 
 .popular{
-  text-align: center;
   font-size: 40px;
+  float:left;
+  width:70%;
+  text-align: center;
 }
 
 .info{
   font-family: sans-serif;
   font-size: 20px;
   text-align: center;
-  display: inline-block;
+  display:block;
+  width: 400px;
+  float: left;
+
+
 }
 
 .imp{
-  color:blue;
+  font-style: italic;
+  color: purple;
+}
+.border{
+    border: 2px solid yellow;
+    padding: 4px;
+    margin: 12px;
+    background-color: pink;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.image-column {
+  width: 380px;
+  float: left;
+  padding: 4px;
+  margin: 12px;
+}
+
+.column{
+  width: 380px;
+  float: left;
+  padding: 10px;
+}
+
+.big{
+  border: 3px;
 }
